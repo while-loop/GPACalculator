@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/b_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10.0dip"
+    android:tag="b_fragment" >
+
+    <ScrollView
+        android:id="@+id/HSScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/HSRelativeLayout"
+        android:layout_below="@+id/HSClassGradeTextView" >
+
+        <RelativeLayout
+            android:id="@+id/HSRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner0"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner0"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner0"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner0"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner1"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner1"
+                android:layout_marginTop="13dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner2"
+                android:layout_marginTop="13dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner2"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner4"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner3"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner4"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner3"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner5"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner4"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner5"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner4"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner6"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner5"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner6"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner5"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSGradeSpinner7"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSGradeSpinner0"
+                android:layout_below="@id/HSGradeSpinner6"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/HSLevelSpinner7"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/HSLevelSpinner0"
+                android:layout_below="@id/HSLevelSpinner6"
+                android:layout_marginTop="12dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/HSRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/HSCalculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Calculate"
+            android:textSize="14.0dip" />
+
+        <TextView
+            android:id="@+id/yourGPATextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Your GPA:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/highSchoolGPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="0.00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/HSClassLevelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/HSScrollView"
+        android:layout_alignRight="@+id/HSScrollView"
+        android:layout_marginRight="30dp"
+        android:text="Class Level"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/unweighted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Unweighted" />
+
+    <TextView
+        android:id="@+id/HSClassGradeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/HSScrollView"
+        android:layout_below="@+id/unweighted"
+        android:layout_marginLeft="34dp"
+        android:text="Class Grade"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

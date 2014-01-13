@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/a_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10.0dip"
+    android:tag="a_fragment" >
+
+    <ScrollView
+        android:id="@+id/collegeScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/collgeRelativeLayout"
+        android:layout_below="@+id/collegeClassGradeTextView" >
+
+        <RelativeLayout
+            android:id="@+id/collegeRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner0"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner0"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner0"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner0"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner1"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner1"
+                android:layout_marginTop="13dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner2"
+                android:layout_marginTop="13dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner2"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner4"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner3"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner4"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner3"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner5"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner4"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner5"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner4"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner6"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner5"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner6"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner5"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeGradeSpinner7"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeGradeSpinner0"
+                android:layout_below="@id/collegeGradeSpinner6"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/collegeCreditHourSpinner7"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/collegeCreditHourSpinner0"
+                android:layout_below="@id/collegeCreditHourSpinner6"
+                android:layout_marginTop="12dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/collgeRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/collegeCalculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Calculate"
+            android:textSize="14.0dip" />
+
+        <TextView
+            android:id="@+id/CollegeyourGPATextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Your GPA:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/collegeGPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="0.00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/collegeClassGradeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:text="Course Grade"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/collegeCreditHourTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/HSScrollView"
+        android:layout_alignRight="@+id/collegeScrollView"
+        android:layout_marginRight="30dp"
+        android:text="Credit Hour(s)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
